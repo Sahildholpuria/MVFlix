@@ -2,4 +2,5 @@
     <string name="app_name">MVFlix</string>
     <string name="Splash_screen_Name">MVFlix</string>
     <string name="about">This app is develop by Sahil Dholpuria and Pradhuman Sharma for Major Project under the guidance of Anuradha Raheja. </string>
+    <string name="www_mvflix_ml">www.mvflix.ml</string>
 </resources>
