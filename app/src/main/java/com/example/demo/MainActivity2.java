@@ -38,6 +38,12 @@ public class MainActivity2 extends AppCompatActivity {
 
                 Intent shareIntent = Intent.createChooser(sendIntent, null);
                 startActivity(shareIntent);
+                break;
+
+            case R.id.about:
+                Intent intent = new Intent(MainActivity2.this,about.class);
+                startActivity(intent);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
