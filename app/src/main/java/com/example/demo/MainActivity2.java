@@ -16,7 +16,8 @@ import com.khizar1556.mkvideoplayer.MKPlayerActivity;
 public class MainActivity2 extends AppCompatActivity {
 
 
-    private String url = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+//    private String url = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    private String url = "https://majorproject.blob.core.windows.net/videos/file_example_MP4_1280_10MG.mp4";
 
 //    private Button playButton;
 
