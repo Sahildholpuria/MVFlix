@@ -9,52 +9,59 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="157dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="30dp"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:padding="30dp">
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/umbaralaacdemy"/>
+                android:src="@drawable/umbaralaacdemy" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginVertical="5dp"
-                android:layout_height="50dp"
+                android:textStyle="bold"
                 android:fontFamily="@font/ubuntu_mono"
-                android:text="Helojsdfkjdsfkdjfdkjf dskjv skdnsvjnvosivnsofivnsoiknvsfovfsolvfsnolvsnvofsvnsfovkfnsovsvnsovf" />
+                android:text="On one day in 1989, 43 infants are inexplicably born to random, unconnected women who showed no signs of pregnancy the day before. Seven are adopted by billionaire industrialist Sir Reginald Hargreeves, who creates the Umbrella Academy and prepares his 'children' to save the world. In their teenage" />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="Play Now" />
+                android:onClick="playnow"
+                android:text="@string/play_now" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/moneyheist" />
+
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginVertical="5dp"
-                android:layout_height="50dp"
+                android:textStyle="bold"
                 android:fontFamily="@font/ubuntu_mono"
-                android:text="Helojsdfkjdsfkdjfdkjf dskjv skdnsvjnvosivnsofivnsoiknvsfovfsolvfsnolvsnvofsvnsfovkfnsovsvnsovf" />
+                android:text="A criminal mastermind who goes by 'The Professor' has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain. To help him carry out the ambitious plan, he recruits eight people with certain abilities and who have nothing to lose." />
 
             <Button
                 android:id="@+id/butto2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="Play Now" />
+                android:onClick="playnow"
+                android:text="@string/play_now" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -64,16 +71,19 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:fontFamily="@font/ubuntu_mono"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Play Now" />
+                android:fontFamily="@font/ubuntu_mono"
+                android:textStyle="bold"
+
+                android:text="Lucifer, a demon, returns from hell to reside in Los Angeles and runs a club. He soon gets involved with the local police and assists them in solving tricky criminal cases." />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Play Now" />
+                android:onClick="playnow"
+                android:text="@string/play_now" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -83,16 +93,18 @@
 
             <TextView
                 android:id="@+id/textView4"
-                android:fontFamily="@font/ubuntu_mono"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Play Now" />
+                android:fontFamily="@font/ubuntu_mono"
+                android:textStyle="bold"
+                android:text="Dr Watson, a former army doctor, finds himself sharing a flat with Sherlock Holmes, an eccentric individual with a knack for solving crimes. Together, they take on the most unusual cases." />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Play Now" />
+                android:onClick="playnow"
+                android:text="@string/play_now" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -102,16 +114,18 @@
 
             <TextView
                 android:id="@+id/textView5"
-                android:fontFamily="@font/ubuntu_mono"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Play Now" />
+                android:fontFamily="@font/ubuntu_mono"
+                android:textStyle="bold"
+                android:text="In the wake of a zombie apocalypse, various survivors struggle to stay alive. As they search for safety and evade the undead, they are forced to grapple with rival groups and difficult choices." />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Play Now" />
+                android:onClick="playnow"
+                android:text="@string/play_now" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -121,16 +135,81 @@
 
             <TextView
                 android:id="@+id/textView6"
-                android:fontFamily="@font/ubuntu_mono"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Play Now" />
+                android:fontFamily="@font/ubuntu_mono"
+                android:textStyle="bold"
+                android:text="Emma Green embarks on a treacherous mission to Mars in command of an international crew, leaving behind her husband and teenage daughter." />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Play Now" />
+                android:onClick="playnow"
+                android:text="@string/play_now" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dark" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="@font/ubuntu_mono"
+                android:text="When two children go missing in a small German town, its sinful past is exposed along with the double lives and fractured relationships that exist among four families as they search for the kids." />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="playnow"
+                android:text="@string/play_now" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/snowperser" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="@font/ubuntu_mono"
+                android:text="Set more than seven years after the world has become a frozen wasteland, this series centres on the remaining people, who inhabit a gigantic, perpetually-moving train that circles the globe." />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="playnow"
+                android:text="@string/play_now" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/titans" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="@font/ubuntu_mono"
+                android:text="This gritty take on the 'Teen Titans' franchise follows young heroes from across the DC Universe as they come of age and find where they belong. Dick Grayson and Rachel Roth, a special girl possessed by a strange darkness, get involved in a conspiracy that could bring Hell on Earth. Hot-headed Starfire and lovable Beast Boy join them along the way as together they become a surrogate family and team of heroes fighting evil." />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="playnow"
+                android:text="@string/play_now" />
 
         </LinearLayout>
 

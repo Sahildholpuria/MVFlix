@@ -18,21 +18,21 @@ public class MainActivity2 extends AppCompatActivity {
 
     private String url = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
 
-    private Button playButton;
+//    private Button playButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        playButton = findViewById(R.id.button);
-
-        playButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                MKPlayerActivity.configPlayer(MainActivity2.this).play(url);
-            }
-        });
+//        playButton = findViewById(R.id.button);
+//
+//        playButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                MKPlayerActivity.configPlayer(MainActivity2.this).play(url);
+//            }
+//        });
     }
 
 
@@ -63,5 +63,10 @@ public class MainActivity2 extends AppCompatActivity {
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void playnow(View view) {
+
+        MKPlayerActivity.configPlayer(MainActivity2.this).play(url);
     }
 }
