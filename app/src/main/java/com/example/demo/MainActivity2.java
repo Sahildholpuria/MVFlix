@@ -16,8 +16,8 @@ import com.khizar1556.mkvideoplayer.MKPlayerActivity;
 public class MainActivity2 extends AppCompatActivity {
 
 
-//    private String url = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
-    private String url = "https://majorproject.blob.core.windows.net/videos/file_example_MP4_1280_10MG.mp4";
+    private String url = "https://majorproject01.s3.ap-south-1.amazonaws.com/BigBuckBunny.mp4";
+//    private String url = "https://majorproject.blob.core.windows.net/videos/file_example_MP4_1280_10MG.mp4";
 
 //    private Button playButton;
 
@@ -27,7 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
 //        playButton = findViewById(R.id.button);
-//
+
 //        playButton.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
@@ -67,7 +67,6 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void playnow(View view) {
-
         MKPlayerActivity.configPlayer(MainActivity2.this).play(url);
     }
 }
