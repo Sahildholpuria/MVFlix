@@ -48,6 +48,11 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
+            case R.id.covid:
+                Intent i = new Intent(MainActivity2.this,MainActivity3.class);
+                startActivity(i);
+                break;
+
             case R.id.share:
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
