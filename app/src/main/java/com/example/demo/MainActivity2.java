@@ -56,7 +56,7 @@ public class MainActivity2 extends AppCompatActivity {
             case R.id.share:
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, "https://sahildholpuria.tech");
+                sendIntent.putExtra(Intent.EXTRA_TEXT, "https://drive.google.com/drive/folders/1ItkgQ6ou1UH5kVJuiPahLw8XdaaqjrbT?usp=sharing");
                 sendIntent.setType("text/plain");
 
                 Intent shareIntent = Intent.createChooser(sendIntent, null);

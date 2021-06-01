@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
 
-        int TIME_To_Stay = 2000;
+        int TIME_To_Stay = 1000;
 
         new Handler().postDelayed(new Runnable() {
             @Override
