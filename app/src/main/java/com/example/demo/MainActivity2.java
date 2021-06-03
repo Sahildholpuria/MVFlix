@@ -10,6 +10,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.khizar1556.mkvideoplayer.MKPlayerActivity;
 
@@ -48,6 +49,8 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
+            case R.id.live:
+                Toast.makeText(this, "Hello Pradhuman", Toast.LENGTH_SHORT).show();
             case R.id.covid:
                 Intent i = new Intent(MainActivity2.this,MainActivity3.class);
                 startActivity(i);
