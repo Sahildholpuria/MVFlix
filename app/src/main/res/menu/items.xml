@@ -11,7 +11,7 @@
         android:title="COVID 19"
         />
     <item
-        android:id="chat"
+        android:id="@+id/chat"
         android:title="Contact Us"/>
 
     <item

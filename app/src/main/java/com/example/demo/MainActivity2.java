@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -55,7 +56,12 @@ public class MainActivity2 extends AppCompatActivity {
                 Intent i = new Intent(MainActivity2.this,MainActivity3.class);
                 startActivity(i);
                 break;
-
+            case R.id.chat:
+//                Toast.makeText(this, "All Executive are busy right now contact after some time.", Toast.LENGTH_SHORT).show();
+                Uri url = Uri.parse("https://google.com");
+                Intent inent = new Intent(Intent.ACTION_VIEW,url);
+                startActivity(inent);
+                break;
             case R.id.share:
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
