@@ -10,6 +10,9 @@
         android:id="@+id/covid"
         android:title="COVID 19"
         />
+    <item
+        android:id="chat"
+        android:title="Contact Us"/>
 
     <item
         android:id="@+id/share"
