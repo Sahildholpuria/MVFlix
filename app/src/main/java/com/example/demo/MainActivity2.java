@@ -52,15 +52,15 @@ public class MainActivity2 extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.live:
                 Toast.makeText(this, "Hello Pradhuman", Toast.LENGTH_SHORT).show();
+                break;
             case R.id.covid:
                 Intent i = new Intent(MainActivity2.this,MainActivity3.class);
                 startActivity(i);
                 break;
             case R.id.chat:
 //                Toast.makeText(this, "All Executive are busy right now contact after some time.", Toast.LENGTH_SHORT).show();
-                Uri url = Uri.parse("https://google.com");
-                Intent inent = new Intent(Intent.ACTION_VIEW,url);
-                startActivity(inent);
+                Intent i1 = new Intent(MainActivity2.this,MainActivity4.class);
+                startActivity(i1);
                 break;
             case R.id.share:
                 Intent sendIntent = new Intent();

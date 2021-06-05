@@ -4,7 +4,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,9 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Demo">
-        <activity android:name=".about"></activity>
+        <activity android:name=".MainActivity4"
+            android:label="Chat Bot"></activity>
+        <activity android:name=".about"
+            android:label="About"/>
         <activity android:name=".MainActivity3" />
-        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity2"
+            android:label="Home"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

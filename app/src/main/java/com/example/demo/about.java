@@ -20,7 +20,7 @@ public class about extends AppCompatActivity {
 
         textView = findViewById(R.id.textView8);
 
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
 
         textView.setOnClickListener(v ->{
