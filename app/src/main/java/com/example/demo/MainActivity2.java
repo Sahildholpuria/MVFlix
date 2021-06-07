@@ -51,7 +51,7 @@ public class MainActivity2 extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.live:
-                Toast.makeText(this, "Hello Pradhuman", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Something went wrong", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.covid:
                 Intent i = new Intent(MainActivity2.this,MainActivity3.class);
