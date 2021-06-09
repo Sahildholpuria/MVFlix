@@ -35,6 +35,6 @@ MVFlix is a Open Source Video Streaming Application.
   
 ## License
 
-[Apache License 2.0](https://choosealicense.com/licenses/apache/)
+[Apache License 2.0](https://github.com/Sahildholpuria/MVFlix/blob/master/LICENSE)
 
   
