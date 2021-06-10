@@ -30,11 +30,7 @@ MVFlix is a Open Source Video Streaming Application.
     
 ## Screenshots
 
-![App Screenshot](https://github.com/Sahildholpuria/MVFlix-Web/blob/master/images/s1.png)
-![App Screenshot](https://github.com/Sahildholpuria/MVFlix-Web/blob/master/images/s2.png)
-![App Screenshot](https://github.com/Sahildholpuria/MVFlix-Web/blob/master/images/s3.png)
-![App Screenshot](https://github.com/Sahildholpuria/MVFlix-Web/blob/master/images/s4.png)
-![App Screenshot](https://github.com/Sahildholpuria/MVFlix-Web/blob/master/images/s5.png)
+![App Screenshot](https://raw.githubusercontent.com/Sahildholpuria/MVFlix-Web/master/images/image1.PNG)
 
 
   
