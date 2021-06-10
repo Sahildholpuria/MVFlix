@@ -16,6 +16,7 @@ MVFlix is a Open Source Video Streaming Application.
 ## Authors
 
 - [@Sahildholpuria](https://www.github.com/Sahildholpuria)
+- [@Pradhumansharma](https://www.github.com/Sahildholpuria)
 
   
 ## Features
