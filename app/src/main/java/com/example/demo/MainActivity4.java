@@ -13,20 +13,20 @@ public class MainActivity4 extends AppCompatActivity {
         setContentView(R.layout.activity_main4);
 
 
-        String summary = "<html><body><div class=\"chat\">\n" +
-                "      <iframe\n" +
-                "      src='https://webchat.botframework.com/embed/propro12?s=xGfRhE0Igu4.RNwNy8meJ4XLSxg2RHbUuP32QKF06wyuU482hhz9XYc' \n" +
-                "        style=\"\n" +
-                "        margin-left: 25%;\n" +
-                "        margin-top: 8%;\n" +
-                "          min-width: 300px;\n" +
-                "          width: 50%;\n" +
-                "          min-height: 500px;\"\n" +
-                "      ></iframe>\n" +
-                "    </div></body></html>";
+//        String summary = "<html><body><div class=\"chat\">\n" +
+//                "      <iframe\n" +
+//                "      src='https://webchat.botframework.com/embed/propro12?s=xGfRhE0Igu4.RNwNy8meJ4XLSxg2RHbUuP32QKF06wyuU482hhz9XYc' \n" +
+//                "        style=\"\n" +
+//                "        margin-left: 25%;\n" +
+//                "        margin-top: 8%;\n" +
+//                "          min-width: 300px;\n" +
+//                "          width: 50%;\n" +
+//                "          min-height: 300px;\"\n" +
+//                "      ></iframe>\n" +
+//                "    </div></body></html>";
 
         WebView webView = findViewById(R.id.webView);
-//        webView.loadUrl("https://sahildholpuria.tech");
-        webView.loadData(summary, "text/html", null);
+        webView.loadUrl("http://34.227.110.0/contact.html");
+//        webView.loadData(summary, "text/html", null);
     }
 }
